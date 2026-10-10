@@ -13,10 +13,10 @@ Here is what I'm building, followed by the engineering behind it.
 I implement pipelines and reporting systems that turn information from different sources into usable views for HR teams and other authorized audiences. The public showcase explains reporting and controlled sharing through a fictional reference.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/workforce-story-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/workforce-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-dark.svg">
-  <img src="assets/workforce-story-light.svg" alt="Concept illustration: different source inputs become consistent data and useful reporting or sharing views." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/workforce-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/workforce-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-v2-dark.svg">
+  <img src="assets/workforce-story-v2-light.svg" alt="Fictional HR concept: related workforce definitions branch into an HR breakdown and a separately scoped recipient dataset; not Thales architecture." width="680">
 </picture>
 
 *Enterprise experience · Fictional public reference*
@@ -28,10 +28,10 @@ I implement pipelines and reporting systems that turn information from different
 I'm building **Doctoleb** around appointments, patient records, and visit administration. Its product direction connects the work of receptionists, doctors, and administrators, with multilingual interfaces and local operation for unreliable connectivity.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/clinic-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-dark.svg">
-  <img src="assets/clinic-story-light.svg" alt="Concept illustration of Doctoleb's intended scope: reception plans appointments, doctors follow visits, and administrators manage clinic setup." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v2-dark.svg">
+  <img src="assets/clinic-story-v2-light.svg" alt="Doctoleb product concept in development: an appointment calendar connects to a patient-record folder and visit timeline; not an application screenshot." width="680">
 </picture>
 
 *Personal product · In development · Application source private*
@@ -43,10 +43,10 @@ I'm building **Doctoleb** around appointments, patient records, and visit admini
 I'm building a shared website product for restaurants: operators set up a business, owners maintain its menu and identity, and guests browse in English or Arabic. My work connects restaurant domains, tenant-scoped data, brand controls, bilingual content, and photo processing in one codebase.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/restaurant-story-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/restaurant-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/restaurant-story-dark.svg">
-  <img src="assets/restaurant-story-light.svg" alt="Concept illustration: operators set up a restaurant site, owners keep its menu current, and guests browse its branded menu." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/restaurant-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/restaurant-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/restaurant-story-v2-dark.svg">
+  <img src="assets/restaurant-story-v2-light.svg" alt="Restaurant website concept: a branded browser and bilingual guest phone share a restaurant identity with owner menu, photo, brand, and hours controls." width="680">
 </picture>
 
 *Personal product · Source-backed development showcase · Concept illustration*
@@ -58,10 +58,10 @@ I'm building a shared website product for restaurants: operators set up a busine
 My GCP experience connects scheduled ingestion, batch processing, analytical layers, and reporting. This fictional traffic example explains an autonomous hourly workflow for analysts: collect API data, organize staging/ODS/warehouse layers in BigQuery, score unusual patterns, and present measurements with labelled AI interpretation in Looker.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/gcp-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-dark.svg">
-  <img src="assets/gcp-story-light.svg" alt="Fictional concept illustration: hourly batches become layered data, anomaly interpretation, and reporting; not a Thales architecture diagram." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/gcp-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-v2-dark.svg">
+  <img src="assets/gcp-story-v2-light.svg" alt="Fictional cloud design: an hourly Workflows batch feeds BigQuery staging, ODS, and warehouse layers, then anomaly scoring, Gemini interpretation, and Looker; no pipeline run." width="680">
 </picture>
 
 *Professional experience explained through an independent fictional design · Documentation only*
@@ -74,6 +74,13 @@ The service composition is a portfolio example, with no Thales architecture or c
 
 **PolicyForge**, my policy-aware synthetic-data reference, asks a practical question: how do different teams get development data that reflects what they are allowed to use? It separates which records belong in a dataset from which fields each recipient can see. The examples use fictional policies and static fabricated fixtures.
 
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/policy-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/policy-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/policy-story-v2-dark.svg">
+  <img src="assets/policy-story-v2-light.svg" alt="Static fictional reference: a recipient-by-field permission matrix gives Operations Aster no pay columns, Finance Aster pay columns, and Finance Boreal no pay columns." width="680">
+</picture>
+
 *Documentation-only reference · Original implementation unavailable*
 
 [Explore the synthetic-data reference →](https://github.com/MahdiHajjHassan/policy-aware-data-generator)
@@ -81,6 +88,13 @@ The service composition is a portfolio example, with no Thales architecture or c
 ## 06 / Keeping AI work connected to product intent
 
 **AgentCrew** presents my approach to AI-assisted engineering: give each task a clear purpose, keep decisions with it, and carry that context through implementation and review. The fictional storefront example makes the handoffs concrete while a human owns design and release decisions.
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/ai-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/ai-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v2-dark.svg">
+  <img src="assets/ai-story-v2-light.svg" alt="Workflow concept: agent responsibilities share a task brief and decisions, with implementation, quality review, a revision loop, and human acceptance; checks not executed." width="680">
+</picture>
 
 *Independent fictional reference · Separate from my final-year project*
 

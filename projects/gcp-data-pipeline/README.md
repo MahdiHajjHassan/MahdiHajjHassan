@@ -11,10 +11,10 @@ My professional experience includes GCP pipeline work connecting batch ingestion
 *Independent reference design · Fictional traffic scenario · Documentation only; no cloud deployment or execution results supplied*
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/gcp-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-dark.svg">
-  <img src="assets/gcp-story-light.svg" alt="Fictional concept illustration: hourly API batches pass through analytical layers to anomaly analysis and a dashboard." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/gcp-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-v2-dark.svg">
+  <img src="assets/gcp-story-v2-light.svg" alt="Fictional cloud design: an hourly Workflows batch feeds BigQuery staging, ODS, and warehouse layers, then anomaly scoring, Gemini interpretation, and Looker; no pipeline run." width="680">
 </picture>
 
 *Concept illustration of the fictional reference; not an employer system diagram or a pipeline run.*
