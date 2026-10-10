@@ -1,21 +1,22 @@
 # Hi, I'm Mahdi
 
-I'm an **AI and data engineer** based in Beirut. I work in **data engineering at Thales** and study software engineering at **42 Beirut**.
+I'm an **AI and data engineer** based in Beirut. I work in **data engineering at Thales** and I'm a **42 Beirut alumnus**.
 
 <a href="https://www.thalesgroup.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/thales-dark.svg"><img src="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/thales.svg" alt="Thales" width="100"></picture></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.42beirut.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/42-dark.svg"><img src="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/42-light.svg" alt="42 Beirut" width="32"></picture></a>
+<a href="https://www.42beirut.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/42-dark.svg"><img src="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/42-light.svg" alt="42 Beirut alumni affiliation" width="32"></picture></a>
 
-At Thales, I handle the implementation of data pipelines and reporting systems for HR teams. I bring data from different sources into a consistent structure, manage access by role and country, and coordinate delivery with other engineers and interns.
+At Thales, I implement data pipelines and reporting systems for critical HR data covering the company's global workforce — tens of thousands of employees worldwide. I coordinate delivery with other engineers and interns, working with the product owner on requirements and discussing architecture with the technical lead.
 
-Outside work, I build applications and AI workflows. I use agents for planning, development, and testing, while taking responsibility for the design and the final product.
+Outside work, I design workflows and ship AI products for businesses and departments. I also built a multi-agent orchestration system for my final-year project.
 
-At 42 Beirut, I work on software projects in C and C++, including [Minishell](https://github.com/MahdiHajjHassan/minishell), [Philosophers](https://github.com/MahdiHajjHassan/Philosophers), and [Cub3D](https://github.com/MahdiHajjHassan/Cub3d).
+My completed project work at 42 Beirut gave me hands-on engineering experience in systems programming and networking, strengthened through collaboration, peer review, problem solving, and debugging. It taught me to adapt, learn independently, and take ownership of what I build.
 
 A few things I've worked on:
 
-- [HR data platforms](https://github.com/MahdiHajjHassan/workforce-data-platform) - an anonymized overview of my enterprise data work.
-- [Synthetic data generator](https://github.com/MahdiHajjHassan/policy-aware-data-generator) — a public reference design for development data shaped by team, role, and country permissions.
-- [AI development workflow](https://github.com/MahdiHajjHassan/ai-development-workflow) - an independent demo of how I organize AI agents to build software.
-- [Doctoleb](https://github.com/MahdiHajjHassan/doctoleb-showcase) - a clinic-management app I'm developing.
+- [HR data platform showcase](https://github.com/MahdiHajjHassan/workforce-data-platform) — a generic, fictional reference showcase of my data engineering experience.
+- [Synthetic-data reference design](https://github.com/MahdiHajjHassan/policy-aware-data-generator) — a dummy showcase with fictional policies and static fixtures; the original implementation is unavailable.
+- [Doctoleb](https://github.com/MahdiHajjHassan/doctoleb-showcase) — a personal clinic-management app I'm developing; source is private.
 
-You can reach me at [mahdihajjhassan.business@gmail.com](mailto:mahdihajjhassan.business@gmail.com).
+The work-related showcases above use fictional examples only. They contain no employer code, internal identifiers, schemas, or real employee data, and do not reproduce or expose confidential implementations.
+
+You can reach me at [mahdihajjhassan.business@gmail.com](mailto:mahdihajjhassan.business@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/mahdi-hajj-hassan-5b953b312/).
