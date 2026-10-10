@@ -13,9 +13,9 @@ At 42 Beirut, I work on software projects in C and C++, including [Minishell](ht
 
 A few things I've worked on:
 
-- [HR data platforms](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/case-studies/workforce-data-platform.md) — an anonymized overview of my enterprise data work.
+- [HR data platforms](https://github.com/MahdiHajjHassan/workforce-data-platform) - an anonymized overview of my enterprise data work.
 - [Synthetic data generator](https://github.com/MahdiHajjHassan/policy-aware-data-generator) — a public reference design for development data shaped by team, role, and country permissions.
-- [AI development workflow](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/case-studies/ai-development-workflow.md) — an independent demo of how I organize AI agents to build software.
-- [Doctoleb](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/case-studies/doctoleb.md) — a clinic-management app I'm developing.
+- [AI development workflow](https://github.com/MahdiHajjHassan/ai-development-workflow) - an independent demo of how I organize AI agents to build software.
+- [Doctoleb](https://github.com/MahdiHajjHassan/doctoleb-showcase) - a clinic-management app I'm developing.
 
 You can reach me at [mahdihajjhassan.business@gmail.com](mailto:mahdihajjhassan.business@gmail.com).
