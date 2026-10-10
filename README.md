@@ -10,7 +10,7 @@ Selected projects, followed by the engineering behind them.
 
 ## 01 / HR Data Platform
 
-I delivered pipelines and reporting systems that turn information from different sources into usable views for HR teams and other authorized audiences. The public showcase explains reporting and controlled sharing through a fictional reference.
+I delivered pipelines, reporting systems, and datasets for AI model training, turning information from different sources into usable outputs for HR teams and other authorized audiences. The public showcase explains reporting, controlled sharing, and training-data delivery through a fictional reference.
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/workforce-story-v2-mobile-dark.svg">
