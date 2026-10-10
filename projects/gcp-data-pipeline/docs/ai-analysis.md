@@ -1,13 +1,13 @@
 # GCP Data Pipeline: anomaly analysis and interpretation
 
 > [!CAUTION]
-> **Independent portfolio demo — no Thales implementation or data.**
+> **Independent portfolio demo: no Thales implementation or data.**
 > This showcase uses fictional data and generic reference designs to explain engineering ideas from my professional experience. It does not reproduce, document, or disclose Thales's actual systems, architecture, configuration, or critical data. It is not an official Thales project or endorsement.
 
-## Proposed analysis stages
+## Reference analysis stages
 
 1. **Compute observations.** BigQuery produces hourly trip-volume and average-duration series for fictional zones.
-2. **Score unusual values.** A proposed BigQuery ML time-series model compares observations against a fitted historical pattern. `ML.DETECT_ANOMALIES` is an available mechanism; no model is trained or evaluated in this documentation.
+2. **Score unusual values.** A reference BigQuery ML time-series model compares observations against a fitted historical pattern. `ML.DETECT_ANOMALIES` is an available mechanism; no model is trained or evaluated in this documentation.
 3. **Generate an explanation.** BigQuery AI with Gemini receives selected measures, comparison context, and anomaly scores. It returns a structured interpretation tied to the batch and zone.
 4. **Expose evidence and interpretation.** Looker presents metric history and scores separately from the generated text.
 
@@ -15,12 +15,12 @@ References: [BigQuery ML anomaly detection](https://docs.cloud.google.com/bigque
 
 ## Fictional illustration
 
-**Invented values and manually written commentary — not a pipeline run, model output, or evaluation result.**
+**Invented values and manually written commentary: not a pipeline run, model output, or evaluation result.**
 
 | Field | Illustrative value |
 | --- | --- |
 | Zone | Harbor North, a fictional zone |
-| Observed hour | 17:00–18:00 in the example's declared timezone |
+| Observed hour | 17:00 to 18:00 in the example's declared timezone |
 | Average duration | 22 minutes |
 | Historical comparison | 14 minutes |
 | Potential finding | Duration is above the fictional comparison value. |
@@ -30,7 +30,7 @@ The comparison does not establish an anomaly threshold or causal explanation. Th
 
 ## Dashboard concept
 
-**Concept layout — no Looker report has been built or connected by this draft.**
+**Concept layout: no Looker report has been built or connected by this draft.**
 
 | Dashboard area | Intended content |
 | --- | --- |

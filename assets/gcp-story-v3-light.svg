@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="480" viewBox="0 0 680 480" role="img" aria-labelledby="gcpTitle gcpDesc" data-model="hourly-orchestration-layered-store-and-anomaly-chart" data-variant="desktop" data-version="v3">
+<title id="gcpTitle">An hourly cloud workflow from traffic batches to interpreted anomalies</title>
+<desc id="gcpDesc">Documentation-only fictional traffic design, not a Thales system or pipeline run. An hourly schedule starts Workflows, ingestion feeds BigQuery staging, ODS, and warehouse layers, BigQuery ML illustrates anomaly scoring, Gemini illustrates interpretation, and Looker presents both. The chart has no measured data or model results.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="680" height="480" rx="18" fill="#faf8f3" stroke="none" stroke-width="1.5"/>
+<text x="24" y="29" font-size="14" font-weight="600" fill="#805c09" text-anchor="start">FICTIONAL CLOUD DESIGN · NOT A RUN</text>
+<text x="24" y="64" font-size="27" font-weight="600" fill="#24313b" text-anchor="start">Every hour. From batch to insight.</text>
+<circle cx="51" cy="119" r="22" fill="#f4eed8" stroke="#805c09" stroke-width="1.5"/>
+<path d="M51 106V119L61 124" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="51" cy="101" r="1.6" fill="#805c09" stroke="none" stroke-width="1.5"/>
+<circle cx="69" cy="119" r="1.6" fill="#805c09" stroke="none" stroke-width="1.5"/>
+<circle cx="51" cy="137" r="1.6" fill="#805c09" stroke="none" stroke-width="1.5"/>
+<circle cx="33" cy="119" r="1.6" fill="#805c09" stroke="none" stroke-width="1.5"/>
+<text x="87" y="114" font-size="17" font-weight="600" fill="#24313b" text-anchor="start">Cloud Scheduler</text>
+<text x="87" y="137" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Every hour</text>
+<path d="M51 149V179" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46 173L51 179L56 173" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="28" y="187" width="144" height="97" rx="9" fill="#f4eed8" stroke="#805c09" stroke-width="1.5"/>
+<text x="44" y="217" font-size="20" font-weight="600" fill="#24313b" text-anchor="start">Workflows</text>
+<text x="44" y="244" font-size="18" font-weight="400" fill="#24313b" text-anchor="start">Traffic API</text>
+<text x="44" y="269" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Ingest a batch</text>
+<path d="M178 231H213" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M207 226L213 231L207 236" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="226" y="106" font-size="21" font-weight="600" fill="#24313b" text-anchor="start">BigQuery</text>
+<rect x="224" y="133" width="163" height="129" rx="2" fill="#ffffff" stroke="#d9dedb" stroke-width="1.5"/>
+<rect x="225" y="134" width="161" height="41" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="238" y="161" font-size="18" font-weight="400" fill="#24313b" text-anchor="start">Staging</text>
+<path d="M224 176H387" fill="none" stroke="#d9dedb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="225" y="177" width="161" height="41" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="238" y="204" font-size="18" font-weight="400" fill="#24313b" text-anchor="start">ODS</text>
+<path d="M224 219H387" fill="none" stroke="#d9dedb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="225" y="220" width="161" height="41" rx="2" fill="#f4eed8" stroke="none" stroke-width="1.5"/>
+<text x="238" y="247" font-size="18" font-weight="600" fill="#24313b" text-anchor="start">Warehouse</text>
+<ellipse cx="305.5" cy="133" rx="81.5" ry="9" fill="#eef0eb" stroke="#d9dedb" stroke-width="1.5"/>
+<path d="M224 262Q305.5 280 387 262" fill="none" stroke="#d9dedb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="227" y="294" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Land · clean · model</text>
+<path d="M395 230H425" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M419 225L425 230L419 235" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="436" y="104" width="217" height="138" rx="9" fill="#ffffff" stroke="#d9dedb" stroke-width="1.5"/>
+<text x="450" y="132" font-size="19" font-weight="600" fill="#24313b" text-anchor="start">BQ ML: anomalies</text>
+<path d="M454 153V221H637" fill="none" stroke="#d9dedb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M456 196.52H634" fill="none" stroke="#53646d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M458.0 200.6L487.6 188.4L517.2 198.6L545.0 191.8L569.4 155.7L593.7 193.8L632.0 189.7" fill="none" stroke="#805c09" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="569.4" cy="155.7" r="5" fill="#805c09" stroke="none" stroke-width="1.5"/>
+<path d="M548 248V273" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M543 267L548 273L553 267" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M449 288L456 281H643V344H449Z" fill="#f4eed8" stroke="#d9dedb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="461" y="311" font-size="17" font-weight="600" fill="#24313b" text-anchor="start">Gemini: explain signals</text>
+<text x="461" y="334" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Labelled AI commentary</text>
+<path d="M548 351V366" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M543 360L548 366L553 360" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M306 311V383H429" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M423 378L429 383L423 388" fill="none" stroke="#805c09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="29" y="359" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Orchestrate</text>
+<rect x="438" y="371" width="213" height="28" rx="14" fill="#f4eed8" stroke="#805c09" stroke-width="1.5"/>
+<text x="544" y="390" font-size="15" font-weight="600" fill="#24313b" text-anchor="middle">Looker: metrics + AI notes</text>
+<path d="M24 414H656" fill="none" stroke="#d9dedb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="436" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Reference service design · Fictional traffic data and anomaly chart</text>
+<text x="24" y="460" font-size="16" font-weight="400" fill="#53646d" text-anchor="start">Documentation only · No Thales architecture, model execution, or cloud deployment</text>
+</svg>
