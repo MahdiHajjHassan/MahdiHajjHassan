@@ -13,10 +13,10 @@ Selected projects, followed by the engineering behind them.
 I delivered pipelines, reporting systems, and datasets for AI model training, turning information from different sources into usable outputs for HR teams and other authorized audiences. The public showcase explains reporting, controlled sharing, and training-data delivery through a fictional reference.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/workforce-story-v2-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/workforce-story-v2-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-v2-dark.svg">
-  <img src="assets/workforce-story-v2-light.svg" alt="Fictional HR concept: related workforce definitions branch into an HR breakdown and a separately scoped recipient dataset; not Thales architecture." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/workforce-story-v3-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/workforce-story-v3-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-v3-dark.svg">
+  <img src="assets/workforce-story-v3-light.svg" alt="Fictional HR concept: shared workforce definitions branch into HR reporting, controlled sharing, and a training dataset that feeds AI model training; not Thales architecture or model results." width="680">
 </picture>
 
 *Enterprise experience · Fictional public reference*
