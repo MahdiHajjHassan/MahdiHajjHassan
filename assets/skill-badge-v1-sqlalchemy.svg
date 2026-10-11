@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="34" viewBox="0 0 107 34" role="img" aria-labelledby="title desc">
+  <title id="title">SQLAlchemy</title>
+  <desc id="desc">SQLAlchemy, in APIs and access.</desc>
+  <rect x="0.5" y="3.5" width="106" height="27" rx="6" fill="#ede5fa" stroke="#50326e" stroke-opacity="0.2"/>
+  <text x="13" y="22" fill="#50326e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">SQLAlchemy</text>
+</svg>

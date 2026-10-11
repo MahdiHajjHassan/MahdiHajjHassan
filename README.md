@@ -7,8 +7,6 @@ I'm **Mahdi**, a **data engineer at Thales** in **Beirut, Lebanon**, and a **42 
 
 My work connects **data engineering, AI workflows, and the applications people use to get work done**.
 
-**Core tools:** SQL / T-SQL · Python · Talend · SQL Server · GCP · Power BI · TypeScript
-
 [Email](mailto:mahdihajjhassan.business@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mahdi-hajj-hassan-5b953b312/)
 
 ## Selected projects
@@ -20,6 +18,158 @@ My work connects **data engineering, AI workflows, and the applications people u
 - [**PolicyForge**](https://github.com/MahdiHajjHassan/policy-aware-data-generator): synthetic development datasets shaped by team, role, country, and field permissions.
 - [**Doctoleb**](https://github.com/MahdiHajjHassan/doctoleb-showcase): appointments, patient records, and clinic administration in a multilingual application.
 - [**Restaurant Websites**](https://github.com/MahdiHajjHassan/Restaurant-app): branded bilingual sites with menu management and separate owner/operator controls.
+
+<!-- SKILLS:START -->
+## Languages, tools, and skills
+
+### Languages
+
+<p>
+  <img src="assets/skill-badge-v1-python.svg" alt="Python" width="70" height="34">
+  <img src="assets/skill-badge-v1-c.svg" alt="C" width="52" height="34">
+  <img src="assets/skill-badge-v1-cpp.svg" alt="C++" width="52" height="34">
+  <img src="assets/skill-badge-v1-javascript.svg" alt="JavaScript" width="91" height="34">
+  <img src="assets/skill-badge-v1-typescript.svg" alt="TypeScript" width="93" height="34">
+  <img src="assets/skill-badge-v1-java.svg" alt="Java" width="54" height="34">
+  <img src="assets/skill-badge-v1-sql.svg" alt="SQL" width="53" height="34">
+  <img src="assets/skill-badge-v1-t-sql.svg" alt="T-SQL" width="65" height="34">
+  <img src="assets/skill-badge-v1-bash.svg" alt="Bash" width="57" height="34">
+</p>
+
+### Frameworks and applications
+
+<p>
+  <img src="assets/skill-badge-v1-react.svg" alt="React" width="60" height="34">
+  <img src="assets/skill-badge-v1-next-js.svg" alt="Next.js" width="68" height="34">
+  <img src="assets/skill-badge-v1-nestjs.svg" alt="NestJS" width="69" height="34">
+  <img src="assets/skill-badge-v1-node-js.svg" alt="Node.js" width="73" height="34">
+  <img src="assets/skill-badge-v1-fastapi.svg" alt="FastAPI" width="74" height="34">
+  <img src="assets/skill-badge-v1-electron.svg" alt="Electron" width="78" height="34">
+  <img src="assets/skill-badge-v1-electron-vite.svg" alt="electron-vite" width="102" height="34">
+  <img src="assets/skill-badge-v1-full-stack-development.svg" alt="Full-stack development" width="170" height="34">
+  <img src="assets/skill-badge-v1-cross-platform-desktop-apps.svg" alt="Cross-platform desktop apps" width="205" height="34">
+</p>
+
+### Data platforms and analytics
+
+<p>
+  <img src="assets/skill-badge-v1-sql-server.svg" alt="SQL Server" width="97" height="34">
+  <img src="assets/skill-badge-v1-postgresql.svg" alt="PostgreSQL" width="101" height="34">
+  <img src="assets/skill-badge-v1-talend-etl.svg" alt="Talend ETL" width="97" height="34">
+  <img src="assets/skill-badge-v1-ssis.svg" alt="SSIS" width="57" height="34">
+  <img src="assets/skill-badge-v1-ssms.svg" alt="SSMS" width="64" height="34">
+  <img src="assets/skill-badge-v1-power-bi.svg" alt="Power BI" width="82" height="34">
+  <img src="assets/skill-badge-v1-dax.svg" alt="DAX" width="53" height="34">
+  <img src="assets/skill-badge-v1-ssas.svg" alt="SSAS" width="62" height="34">
+  <img src="assets/skill-badge-v1-looker.svg" alt="Looker" width="69" height="34">
+  <img src="assets/skill-badge-v1-indexeddb.svg" alt="IndexedDB" width="93" height="34">
+  <img src="assets/skill-badge-v1-drizzle-orm.svg" alt="Drizzle ORM" width="103" height="34">
+</p>
+
+### Cloud
+
+<p>
+  <img src="assets/skill-badge-v1-google-cloud-platform.svg" alt="Google Cloud Platform" width="169" height="34">
+  <img src="assets/skill-badge-v1-dataflow.svg" alt="Dataflow" width="79" height="34">
+  <img src="assets/skill-badge-v1-bigquery.svg" alt="BigQuery" width="84" height="34">
+  <img src="assets/skill-badge-v1-cloud-workflows.svg" alt="Cloud Workflows" width="132" height="34">
+</p>
+
+### APIs and access
+
+<p>
+  <img src="assets/skill-badge-v1-sqlalchemy.svg" alt="SQLAlchemy" width="107" height="34">
+  <img src="assets/skill-badge-v1-pydantic.svg" alt="Pydantic" width="80" height="34">
+  <img src="assets/skill-badge-v1-openapi.svg" alt="OpenAPI" width="81" height="34">
+  <img src="assets/skill-badge-v1-jwt-authentication.svg" alt="JWT authentication" width="145" height="34">
+  <img src="assets/skill-badge-v1-role-based-access.svg" alt="Role-based access" width="141" height="34">
+</p>
+
+### AI workflows
+
+<p>
+  <img src="assets/skill-badge-v1-multi-agent-orchestration.svg" alt="Multi-agent orchestration" width="182" height="34">
+  <img src="assets/skill-badge-v1-retrieval-augmented-generation-rag.svg" alt="Retrieval-augmented generation (RAG)" width="263" height="34">
+  <img src="assets/skill-badge-v1-request-analysis.svg" alt="Request analysis" width="131" height="34">
+  <img src="assets/skill-badge-v1-ticket-routing.svg" alt="Ticket routing" width="112" height="34">
+  <img src="assets/skill-badge-v1-ai-software-workflows.svg" alt="AI software workflows" width="162" height="34">
+</p>
+
+### Systems
+
+<p>
+  <img src="assets/skill-badge-v1-linux.svg" alt="Linux" width="61" height="34">
+  <img src="assets/skill-badge-v1-unix.svg" alt="Unix" width="54" height="34">
+  <img src="assets/skill-badge-v1-processes.svg" alt="Processes" width="90" height="34">
+  <img src="assets/skill-badge-v1-filesystems.svg" alt="Filesystems" width="100" height="34">
+  <img src="assets/skill-badge-v1-networking.svg" alt="Networking" width="97" height="34">
+  <img src="assets/skill-badge-v1-system-administration.svg" alt="System administration" width="166" height="34">
+</p>
+
+### Data engineering
+
+<p>
+  <img src="assets/skill-badge-v1-etl.svg" alt="ETL" width="52" height="34">
+  <img src="assets/skill-badge-v1-stored-procedures.svg" alt="Stored procedures" width="141" height="34">
+  <img src="assets/skill-badge-v1-data-modeling.svg" alt="Data modeling" width="116" height="34">
+  <img src="assets/skill-badge-v1-operational-data-stores.svg" alt="Operational data stores" width="170" height="34">
+  <img src="assets/skill-badge-v1-data-warehouses.svg" alt="Data warehouses" width="131" height="34">
+  <img src="assets/skill-badge-v1-full-loads.svg" alt="Full loads" width="88" height="34">
+  <img src="assets/skill-badge-v1-delta-loads.svg" alt="Delta loads" width="95" height="34">
+  <img src="assets/skill-badge-v1-data-conversion.svg" alt="Data conversion" width="126" height="34">
+  <img src="assets/skill-badge-v1-data-validation.svg" alt="Data validation" width="118" height="34">
+  <img src="assets/skill-badge-v1-ai-training-datasets.svg" alt="AI training datasets" width="146" height="34">
+  <img src="assets/skill-badge-v1-production-troubleshooting.svg" alt="Production troubleshooting" width="198" height="34">
+  <img src="assets/skill-badge-v1-web-scraping.svg" alt="Web scraping" width="111" height="34">
+</p>
+
+### Software engineering and testing
+
+<p>
+  <img src="assets/skill-badge-v1-pytest.svg" alt="pytest" width="64" height="34">
+  <img src="assets/skill-badge-v1-object-oriented-programming.svg" alt="Object-oriented programming" width="210" height="34">
+  <img src="assets/skill-badge-v1-algorithms.svg" alt="Algorithms" width="95" height="34">
+  <img src="assets/skill-badge-v1-data-structures.svg" alt="Data structures" width="119" height="34">
+  <img src="assets/skill-badge-v1-debugging.svg" alt="Debugging" width="94" height="34">
+  <img src="assets/skill-badge-v1-secure-coding.svg" alt="Secure coding" width="116" height="34">
+  <img src="assets/skill-badge-v1-api-testing.svg" alt="API testing" width="94" height="34">
+  <img src="assets/skill-badge-v1-unit-testing.svg" alt="Unit testing" width="97" height="34">
+  <img src="assets/skill-badge-v1-integration-testing.svg" alt="Integration testing" width="140" height="34">
+</p>
+
+### Delivery
+
+<p>
+  <img src="assets/skill-badge-v1-docker.svg" alt="Docker" width="69" height="34">
+  <img src="assets/skill-badge-v1-git.svg" alt="Git" width="52" height="34">
+  <img src="assets/skill-badge-v1-github.svg" alt="GitHub" width="69" height="34">
+  <img src="assets/skill-badge-v1-gitlab.svg" alt="GitLab" width="67" height="34">
+  <img src="assets/skill-badge-v1-gitlab-ci-cd.svg" alt="GitLab CI/CD" width="106" height="34">
+  <img src="assets/skill-badge-v1-code-review.svg" alt="Code review" width="102" height="34">
+  <img src="assets/skill-badge-v1-release-management.svg" alt="Release management" width="158" height="34">
+  <img src="assets/skill-badge-v1-deployments.svg" alt="Deployments" width="107" height="34">
+  <img src="assets/skill-badge-v1-artifact-versioning.svg" alt="Artifact versioning" width="140" height="34">
+  <img src="assets/skill-badge-v1-build-tooling.svg" alt="Build tooling" width="107" height="34">
+  <img src="assets/skill-badge-v1-software-integration.svg" alt="Software integration" width="151" height="34">
+</p>
+
+### Collaboration and design
+
+<p>
+  <img src="assets/skill-badge-v1-agile.svg" alt="Agile" width="58" height="34">
+  <img src="assets/skill-badge-v1-scrum.svg" alt="Scrum" width="67" height="34">
+  <img src="assets/skill-badge-v1-jira.svg" alt="Jira" width="52" height="34">
+  <img src="assets/skill-badge-v1-miro.svg" alt="Miro" width="54" height="34">
+  <img src="assets/skill-badge-v1-microsoft-teams.svg" alt="Microsoft Teams" width="129" height="34">
+  <img src="assets/skill-badge-v1-technical-documentation.svg" alt="Technical documentation" width="183" height="34">
+  <img src="assets/skill-badge-v1-peer-evaluation.svg" alt="Peer evaluation" width="122" height="34">
+  <img src="assets/skill-badge-v1-peer-feedback.svg" alt="Peer feedback" width="113" height="34">
+  <img src="assets/skill-badge-v1-requirements-analysis.svg" alt="Requirements analysis" width="167" height="34">
+  <img src="assets/skill-badge-v1-architecture-design.svg" alt="Architecture design" width="147" height="34">
+  <img src="assets/skill-badge-v1-knowledge-sharing.svg" alt="Knowledge sharing" width="146" height="34">
+</p>
+
+<!-- SKILLS:END -->
 
 ## 01 / HR Data Platform
 
@@ -113,26 +263,6 @@ My work connects **data engineering, AI workflows, and the applications people u
 [Restaurant application and architecture →](https://github.com/MahdiHajjHassan/Restaurant-app)
 
 ## Technical background
-
-<details>
-<summary><strong>Languages, frameworks, data platforms, and engineering tools</strong></summary>
-
-| Area | My toolkit |
-| --- | --- |
-| Languages | Python · C · C++ · JavaScript · TypeScript · Java · SQL / T-SQL · Bash |
-| Applications | React · Next.js · NestJS · Node.js · FastAPI · Electron · electron-vite |
-| Data and databases | SQL Server · PostgreSQL · Talend ETL · SSIS · SSMS · Stored procedures · ODS and warehouse modeling |
-| Analytics and BI | Power BI · DAX · SSAS · Looker |
-| Cloud | Google Cloud · Dataflow · BigQuery · Cloud Workflows |
-| APIs and validation | SQLAlchemy · Pydantic · OpenAPI · JWT authentication · Role-based access |
-| Systems | Linux / Unix · Processes and filesystems · Networking · System administration |
-| Testing and engineering | pytest · API, unit, and integration testing · OOP · Data structures and algorithms · Debugging · Secure coding |
-| Delivery | Docker · Git · GitHub · GitLab · GitLab CI/CD · Agile / Scrum · Code review |
-| Collaboration | Jira · Miro · Microsoft Teams · Technical documentation · Peer evaluation |
-
-**Applied AI:** multi-agent coordination, retrieval-augmented generation (RAG), request analysis, ticket routing, and AI-assisted software workflows.
-
-</details>
 
 <details>
 <summary><strong>Enterprise delivery and systems foundations</strong></summary>

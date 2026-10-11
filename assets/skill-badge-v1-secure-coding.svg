@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="34" viewBox="0 0 116 34" role="img" aria-labelledby="title desc">
+  <title id="title">Secure coding</title>
+  <desc id="desc">Secure coding, in Software engineering and testing.</desc>
+  <rect x="0.5" y="3.5" width="115" height="27" rx="6" fill="#e9edce" stroke="#3c4810" stroke-opacity="0.2"/>
+  <text x="13" y="22" fill="#3c4810" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Secure coding</text>
+</svg>

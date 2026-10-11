@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="34" viewBox="0 0 102 34" role="img" aria-labelledby="title desc">
+  <title id="title">electron-vite</title>
+  <desc id="desc">electron-vite, in Frameworks and applications.</desc>
+  <rect x="0.5" y="3.5" width="101" height="27" rx="6" fill="#e4f0ff" stroke="#153e76" stroke-opacity="0.2"/>
+  <text x="13" y="22" fill="#153e76" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">electron-vite</text>
+</svg>
