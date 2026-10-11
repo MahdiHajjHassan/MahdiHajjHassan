@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1476" viewBox="0 0 360 1476" role="img" aria-labelledby="gcpTitle gcpDesc" data-model="hourly-orchestration-layered-store-score-and-commentary" data-variant="mobile" data-version="v5">
+<title id="gcpTitle">An hourly cloud workflow from traffic batches to interpreted anomalies</title>
+<desc id="gcpDesc">An hourly schedule starts Cloud Workflows and ingestion. Data moves through BigQuery staging, operational data store and warehouse layers into anomaly scoring. Gemini interprets the scored results, and Looker presents numerical scores and AI commentary separately.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="360" height="1476" rx="18" fill="#111b29" stroke="none" stroke-width="1.5"/>
+<text x="24" y="49" font-size="28" font-weight="600" fill="#ecf2fa" text-anchor="start">Every hour, from</text>
+<text x="24" y="89" font-size="28" font-weight="600" fill="#ecf2fa" text-anchor="start">data to analysis.</text>
+<text x="24" y="130" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Numbers and AI interpretation</text>
+<circle cx="50" cy="186" r="23" fill="#233b59" stroke="#9fc4ff" stroke-width="2"/>
+<path d="M50 174V186L60 192" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47 157H53" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="176" font-size="21" font-weight="600" fill="#ecf2fa" text-anchor="start">Hourly schedule</text>
+<text x="90" y="208" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Cloud Scheduler</text>
+<path d="M180 228V250" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175 244L180 250L185 244" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="264" width="312" height="85" rx="8" fill="#233b59" stroke="#9fc4ff" stroke-width="1.5"/>
+<text x="44" y="297" font-size="23" font-weight="600" fill="#ecf2fa" text-anchor="start">Workflows</text>
+<text x="44" y="331" font-size="19" font-weight="400" fill="#b3c4d9" text-anchor="start">Coordinate the hourly batch</text>
+<path d="M180 356V383" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175 377L180 383L185 377" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 397H316L336 417V502H24Z" fill="#192638" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316 397V417H336" fill="none" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="44" y="430" font-size="23" font-weight="600" fill="#ecf2fa" text-anchor="start">Batch ingestion</text>
+<text x="44" y="464" font-size="19" font-weight="400" fill="#ecf2fa" text-anchor="start">Hourly API data</text>
+<text x="44" y="492" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Extract + retain a batch</text>
+<path d="M180 508V536" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175 530L180 536L185 530" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="550" width="312" height="290" rx="8" fill="#192638" stroke="#37485e" stroke-width="1.5"/>
+<text x="44" y="583" font-size="23" font-weight="600" fill="#ecf2fa" text-anchor="start">BigQuery</text>
+<path d="M44 597H316 M44 668H316 M44 745H316" fill="none" stroke="#37485e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="44" y="629" font-size="21" font-weight="600" fill="#ecf2fa" text-anchor="start">Staging</text>
+<text x="44" y="659" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Incoming fields + batch metadata</text>
+<text x="44" y="706" font-size="21" font-weight="600" fill="#ecf2fa" text-anchor="start">ODS</text>
+<text x="44" y="736" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Standardize observations</text>
+<text x="44" y="783" font-size="21" font-weight="600" fill="#ecf2fa" text-anchor="start">Warehouse</text>
+<text x="44" y="813" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Hourly + historical measures</text>
+<path d="M180 846V873" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175 867L180 873L185 867" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 887H316L336 907V1003H44Z" fill="#192638" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316 887V907H336" fill="none" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="920" font-size="23" font-weight="600" fill="#ecf2fa" text-anchor="start">BigQuery ML</text>
+<text x="64" y="953" font-size="20" font-weight="400" fill="#ecf2fa" text-anchor="start">Anomaly scoring</text>
+<text x="64" y="983" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Numerical scores</text>
+<path d="M180 1009V1038" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175 1032L180 1038L185 1032" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 1052H316L336 1072V1181H44Z" fill="#233b59" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316 1052V1072H336" fill="none" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="1085" font-size="23" font-weight="600" fill="#ecf2fa" text-anchor="start">Gemini</text>
+<text x="64" y="1118" font-size="19" font-weight="400" fill="#ecf2fa" text-anchor="start">Interpret metrics and scores</text>
+<text x="64" y="1151" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Labelled AI commentary</text>
+<path d="M180 1187V1204H347V1387H342" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M348 1382L342 1387L348 1392" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 804H14V1319 M44 981H14" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 1319H38" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 1314L38 1319L32 1324" fill="none" stroke="#9fc4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 1230H316L336 1250V1452H44Z" fill="#192638" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316 1230V1250H336" fill="none" stroke="#37485e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="1263" font-size="23" font-weight="600" fill="#ecf2fa" text-anchor="start">Looker analysis</text>
+<path d="M64 1277H316 M64 1353H316" fill="none" stroke="#37485e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="1311" font-size="19" font-weight="600" fill="#ecf2fa" text-anchor="start">Measurements + scores</text>
+<text x="64" y="1340" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Period · zone · freshness</text>
+<text x="64" y="1387" font-size="19" font-weight="600" fill="#ecf2fa" text-anchor="start">AI commentary</text>
+<text x="64" y="1419" font-size="18" font-weight="400" fill="#b3c4d9" text-anchor="start">Generated interpretation</text>
+</svg>

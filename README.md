@@ -24,10 +24,10 @@ My work connects **data engineering, AI workflows, and the applications people u
 **Reliable HR information for reporting, sharing, and AI training.** At Thales, I delivered ingestion, transformations, data models, and reporting for a global workforce. I also supplied HR datasets for AI model training. HR analysts, authorized business teams, and AI teams needed different outputs from the same underlying information.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 540px)" srcset="assets/workforce-story-v4-mobile-dark.svg">
-  <source media="(max-width: 540px)" srcset="assets/workforce-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-v4-dark.svg">
-  <img src="assets/workforce-story-v4-light.svg" alt="HR source inputs feed shared workforce, country, department, and job definitions. The model serves HR reporting, controlled sharing, and a training dataset that feeds AI model training." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 540px)" srcset="assets/workforce-story-v5-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/workforce-story-v5-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-v5-dark.svg">
+  <img src="assets/workforce-story-v5-light.svg" alt="Source HR records feed a shared workforce, country, department and job model. Three deliveries use that model: HR reporting, controlled sharing, and datasets for AI model training." width="680">
 </picture>
 
 [HR project and engineering details →](https://github.com/MahdiHajjHassan/workforce-data-platform)
@@ -37,10 +37,10 @@ My work connects **data engineering, AI workflows, and the applications people u
 **A university request should reach the person who can resolve it.** I built an orchestrator for a university that coordinated two specialist agents: one retrieved relevant university knowledge, and another analyzed the request and routed the ticket to the responsible department and person. Students and staff used the same entry point for different service needs.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/university-ticket-story-v2-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/university-ticket-story-v2-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/university-ticket-story-v2-dark.svg">
-  <img src="assets/university-ticket-story-v2-light.svg" alt="University ticket orchestration: students and staff submit a ticket, an orchestrator coordinates a university knowledge RAG agent and a workflow agent, and the ticket is routed to a department and responsible person." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/university-ticket-story-v3-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/university-ticket-story-v3-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/university-ticket-story-v3-dark.svg">
+  <img src="assets/university-ticket-story-v3-light.svg" alt="Students and staff submit a university request. An orchestrator coordinates a knowledge RAG agent and a workflow agent. Retrieved university context supports request analysis, department selection and assignment to a responsible staff member." width="680">
 </picture>
 
 [University project: agents, retrieval, and routing →](https://github.com/MahdiHajjHassan/university-ticket-orchestration)
@@ -50,10 +50,10 @@ My work connects **data engineering, AI workflows, and the applications people u
 **From incoming data to an analyst's next question.** I built an ingestion-to-analytics pipeline with Dataflow, BigQuery, and Cloud Workflows. The traffic workflow below explains scheduled collection, consistent analytical tables, anomaly scoring, and AI commentary alongside the measured values.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v4-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/gcp-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-v4-dark.svg">
-  <img src="assets/gcp-story-v4-light.svg" alt="An hourly schedule starts Workflows. Ingestion feeds BigQuery staging, ODS, and warehouse layers, followed by anomaly scoring, Gemini interpretation, and Looker analysis." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v5-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/gcp-story-v5-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-v5-dark.svg">
+  <img src="assets/gcp-story-v5-light.svg" alt="An hourly schedule starts Cloud Workflows and ingestion. Data moves through BigQuery staging, operational data store and warehouse layers into anomaly scoring. Gemini interprets the scored results, and Looker presents numerical scores and AI commentary separately." width="680">
 </picture>
 
 [GCP pipeline and AI analysis →](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/gcp-data-pipeline/README.md)
@@ -63,10 +63,10 @@ My work connects **data engineering, AI workflows, and the applications people u
 **Turn a feature request into a change someone can review.** I designed an AI workflow with distinct planning, technical review, implementation, and quality review responsibilities. Each stage used the same requirements and decisions; the product owner reviewed the code changes and check results before approval.
 
 <picture>
-  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v4-mobile-dark.svg">
-  <source media="(max-width: 540px)" srcset="assets/ai-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v4-dark.svg">
-  <img src="assets/ai-story-v4-light.svg" width="680" alt="Planning and technical review define the task. Implementation supplies code changes, quality review checks them, and a person approves the change or requests revision.">
+  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v5-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/ai-story-v5-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v5-dark.svg">
+  <img src="assets/ai-story-v5-light.svg" width="680" alt="A feature request becomes a shared plan and task brief. Implementation produces code changes, quality review returns findings, and a product owner approves the change or requests a revision that returns to implementation.">
 </picture>
 
 [AgentCrew workflow and task examples →](https://github.com/MahdiHajjHassan/ai-development-workflow)
@@ -76,10 +76,10 @@ My work connects **data engineering, AI workflows, and the applications people u
 **Give each team development data that matches its access.** I developed a configurable synthetic-data generator that shaped datasets for different recipients. Operations, finance, and partner teams could receive different fields, with country rules further narrowing what each dataset contained.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 540px)" srcset="assets/policy-story-v3-mobile-dark.svg">
-  <source media="(max-width: 540px)" srcset="assets/policy-story-v3-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/policy-story-v3-dark.svg">
-  <img src="assets/policy-story-v3-light.svg" alt="Recipient and country permissions determine the output columns. Operations in Aster omit pay fields, Finance in Aster include them, and Finance in Boreal omit them." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 540px)" srcset="assets/policy-story-v4-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/policy-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/policy-story-v4-dark.svg">
+  <img src="assets/policy-story-v4-light.svg" alt="An employee schema and recipient rules feed permission-aware field selection. A team, role and country matrix controls pay-field access; exported outputs contain only allowed fields." width="680">
 </picture>
 
 [PolicyForge design and example datasets →](https://github.com/MahdiHajjHassan/policy-aware-data-generator)
@@ -104,10 +104,10 @@ My work connects these AI workflows with multilingual interfaces, staff access r
 **A shared application, with each restaurant's own identity.** I developed bilingual restaurant sites, owner tools for menus and branding, and operator tools for onboarding. I connected restaurant domains, isolated business data, reusable themes, and photo processing in one codebase.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/restaurant-story-v3-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/restaurant-story-v3-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/restaurant-story-v3-dark.svg">
-  <img src="assets/restaurant-story-v3-light.svg" alt="A branded restaurant website, bilingual guest menu on a phone, and owner controls for menus, photos, and branding share one restaurant identity." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/restaurant-story-v4-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/restaurant-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/restaurant-story-v4-dark.svg">
+  <img src="assets/restaurant-story-v4-light.svg" alt="Operator setup and owner edits feed a shared application with each restaurant’s own content and permissions. Guests browse the restaurant’s domain and bilingual menu on a phone." width="680">
 </picture>
 
 [Restaurant application and architecture →](https://github.com/MahdiHajjHassan/Restaurant-app)

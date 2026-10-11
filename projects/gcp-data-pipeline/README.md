@@ -10,10 +10,10 @@ I built an ingestion-to-analytics pipeline using **GCP Dataflow, BigQuery, and C
 The traffic workflow explains the analyst's task: **what changed this hour, which areas look unusual, and what needs investigation?** It connects hourly API data to consistent tables, historical comparisons, anomaly scores, and AI commentary in a dashboard.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v4-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/gcp-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-v4-dark.svg">
-  <img src="assets/gcp-story-v4-light.svg" alt="An hourly schedule starts Workflows. Ingestion feeds BigQuery staging, ODS, and warehouse layers, followed by anomaly scoring, Gemini interpretation, and Looker analysis." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v5-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/gcp-story-v5-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-story-v5-dark.svg">
+  <img src="assets/gcp-story-v5-light.svg" alt="An hourly schedule starts Cloud Workflows and ingestion. Data moves through BigQuery staging, operational data store and warehouse layers into anomaly scoring. Gemini interprets the scored results, and Looker presents numerical scores and AI commentary separately." width="680">
 </picture>
 
 ### From an hourly feed to an analyst's view
