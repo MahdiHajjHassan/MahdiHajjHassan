@@ -1,26 +1,25 @@
-# GCP Data Pipeline reference architecture
+# GCP Data Pipeline | Batch Processing and Failure Handling
 
 > [!CAUTION]
-> **Professional experience, protected information.**
-> This public showcase uses independent reference designs and fictional examples, with no Thales implementation or data. It discloses no employer code, systems, configuration, or critical information and carries no official endorsement. Diagrams explain the design; they are illustrations, not application screenshots or execution results. The traffic scenario and service composition are independent design choices. This repository supplies documentation rather than deployed infrastructure, model outputs, or evaluation results.
+> **Public cloud architecture.** I built a GCP ingestion-to-analytics pipeline; this traffic scenario is an independent design, with no Thales implementation or data and no employer endorsement. Service choices, example values and diagrams explain the architecture. This repository contains documentation, not deployed infrastructure or evaluated model results.
 
-The workflow carries batch identity, processing state, and data-quality decisions from ingestion through analytical delivery.
+The traffic architecture carries the observation period, batch identity, processing status, and quality checks from ingestion to the dashboard.
 
-## Hourly batch contract
+## Batch data
 
-A traffic observation contains an hour bucket, zone, trip count, and average duration. A reference batch manifest records a batch ID, observation interval, schema version, and processing state. Neither individual taxi journeys nor driver/customer identifiers are needed for the reference.
+A traffic observation contains an hour, zone, trip count, and average duration. A batch manifest identifies the batch, observation interval, schema version, and processing state. This analysis operates on hourly aggregates.
 
-## Analytical layers
+## Three analytical layers
 
-| Layer | Reference contents | Promotion condition |
+| Layer | Contents | Checks before the next stage |
 | --- | --- | --- |
-| Staging | Batch metadata and received observation fields. | Valid schema, bounded input, recognized zones. |
-| ODS | Standard timestamps/units and reconciled observations keyed by zone and hour. | Explicit duplicate/revision rules and valid numeric values. |
-| Warehouse | Hourly facts, zone dimensions, and historical analytical measures. | Accepted batch and consistent metric definitions. |
+| Staging | Received fields and batch metadata. | Schema, input size, and recognized zones. |
+| Operational data store (ODS) | Standard timestamps, units, and observations keyed by zone/hour. | Duplicate and revision rules, numeric ranges, and consistent keys. |
+| Warehouse | Hourly facts, zone dimensions, and historical measures. | Accepted batch and agreed metric definitions. |
 
-BigQuery represents the three logical datasets. Cloud Storage can retain raw snapshots for replay. Workflows coordinates the jobs; custom extraction belongs in the reference Cloud Run component.
+BigQuery holds the three logical datasets. Cloud Storage retains batch snapshots, Workflows coordinates the jobs, and Cloud Run handles API extraction.
 
-## Completion and failure paths
+## Success and failure paths
 
 ```mermaid
 flowchart TB
@@ -38,10 +37,15 @@ flowchart TB
   Failed --> Stale["Previous accepted data stays labelled stale"]
 ```
 
-The reference design specifies batch identity to avoid duplicate promotion, bounded retry policies, an explicit latest-success marker, and separately recorded AI errors. Model retraining is a separate controlled job, not silently retried inside every hourly ingestion step.
+The design uses batch identifiers to avoid promoting the same input twice. Retries are bounded, the latest successful interval is recorded, and AI interpretation errors have their own status.
 
-## Reference services
+A failed batch leaves the previous accepted data visible with a stale indicator. A failed interpretation leaves the measurements available and marks the commentary unavailable. Model retraining is handled as a separate controlled job.
 
-[Cloud Scheduler can invoke Workflows on a schedule](https://docs.cloud.google.com/workflows/docs/schedule-workflow). [Workflows can coordinate HTTP services and BigQuery jobs](https://docs.cloud.google.com/workflows/docs/overview). The reference permissions and runtime-secret design uses IAM and Secret Manager; logs avoid credentials or raw source records.
+## Service access and visibility
 
-[Project overview](../README.md) · [AI analysis](ai-analysis.md)
+Cloud Scheduler invokes Workflows on the hourly schedule. Workflows coordinates HTTP services and BigQuery jobs. IAM defines service permissions, Secret Manager holds runtime credentials, and Cloud Logging records execution and failures.
+
+- [Schedule a workflow](https://docs.cloud.google.com/workflows/docs/schedule-workflow)
+- [Workflows overview](https://docs.cloud.google.com/workflows/docs/overview)
+
+[Project overview](../README.md) · [Anomaly scoring and AI interpretation](ai-analysis.md)

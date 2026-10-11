@@ -1,55 +1,55 @@
-# From data pipelines to working products.
+# Mahdi Hajj Hassan | Data engineering & applied AI
 
 > [!CAUTION]
-> **Engineering for critical HR information**
-> At Thales, I delivered pipelines and reporting for critical HR information covering tens of thousands of employees worldwide. The work-related showcases use independent reference designs and fictional examples, with no Thales implementation or data and no official endorsement. Public diagrams are explanatory illustrations. Private implementations, deployments, and execution results are not published here.
+> **Critical HR information, handled responsibly.** At Thales, I delivered pipelines and reporting for critical HR data covering tens of thousands of employees worldwide. Public showcases use independent examples, with no Thales implementation or data and no employer endorsement. Private application code stays private; diagrams explain project workflows.
 
-I'm **Mahdi Hajj Hassan**, a data engineer at **Thales**, based in **Beirut, Lebanon**. I developed data pipelines, designed AI workflows, and delivered products that connect the work of teams and businesses.
+I'm **Mahdi**, a **data engineer at Thales** in **Beirut, Lebanon**, and a **42 Beirut alumnus**. I delivered enterprise HR pipelines and reporting, supplied datasets for AI model training, and built a university multi-agent system that routes student and staff requests to the right people.
 
-Selected projects, followed by the engineering behind them.
+My work connects **data engineering, AI workflows, and the applications people use to get work done**.
+
+**Core tools:** SQL / T-SQL · Python · Talend · SQL Server · GCP · Power BI · TypeScript
+
+[Email](mailto:mahdihajjhassan.business@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mahdi-hajj-hassan-5b953b312/)
+
+## Selected projects
+
+- [**HR Data Platform**](https://github.com/MahdiHajjHassan/workforce-data-platform): enterprise HR reporting, controlled sharing, and datasets for AI model training.
+- [**University Multi-Agent Ticket Routing**](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/university-ticket-orchestration/README.md): university knowledge retrieval and agent coordination that connect a request to the department and person responsible.
+- [**GCP Data Pipeline**](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/gcp-data-pipeline/README.md): scheduled ingestion, analytics, anomaly scoring, and AI interpretation.
+- [**AgentCrew**](https://github.com/MahdiHajjHassan/ai-development-workflow): an AI software delivery workflow from feature request to code review and human approval.
+- [**PolicyForge**](https://github.com/MahdiHajjHassan/policy-aware-data-generator): synthetic development datasets shaped by team, role, country, and field permissions.
+- [**Doctoleb**](https://github.com/MahdiHajjHassan/doctoleb-showcase): appointments, patient records, and clinic administration in a multilingual application.
+- [**Restaurant Websites**](https://github.com/MahdiHajjHassan/Restaurant-app): branded bilingual sites with menu management and separate owner/operator controls.
 
 ## 01 / HR Data Platform
 
-I delivered pipelines, reporting systems, and datasets for AI model training, turning information from different sources into usable outputs for HR teams and other authorized audiences. The platform connects shared HR definitions to reporting, controlled sharing, and training-data delivery.
+**Reliable HR information for reporting, sharing, and AI training.** At Thales, I delivered ingestion, transformations, data models, and reporting for a global workforce. I also supplied HR datasets for AI model training. HR analysts, authorized business teams, and AI teams needed different outputs from the same underlying information.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/workforce-story-v4-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/workforce-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 540px)" srcset="assets/workforce-story-v4-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/workforce-story-v4-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/workforce-story-v4-dark.svg">
   <img src="assets/workforce-story-v4-light.svg" alt="HR source inputs feed shared workforce, country, department, and job definitions. The model serves HR reporting, controlled sharing, and a training dataset that feeds AI model training." width="680">
 </picture>
 
-[Explore HR Data Platform →](https://github.com/MahdiHajjHassan/workforce-data-platform)
+[HR project and engineering details →](https://github.com/MahdiHajjHassan/workforce-data-platform)
 
-## 02 / Bringing a clinic's working day together
+## 02 / University Multi-Agent Ticket Routing
 
-I developed **Doctoleb** around appointments, patient records, and visit administration. Its design connects the work of receptionists, doctors, and administrators, with multilingual interfaces and local operation for unreliable connectivity.
-
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v4-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/clinic-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v4-dark.svg">
-  <img src="assets/clinic-story-v4-light.svg" alt="An appointment calendar connects to a patient-record folder and visit timeline. Staff and clinic setup support the connected clinic day." width="680">
-</picture>
-
-[Explore Doctoleb →](https://github.com/MahdiHajjHassan/doctoleb-showcase)
-
-## 03 / Restaurant Websites
-
-I developed a shared website product for restaurants: operators set up a business, owners maintain its menu and identity, and guests browse in English or Arabic. I connected restaurant domains, tenant-scoped data, brand controls, bilingual content, and photo processing in one codebase.
+**A university request should reach the person who can resolve it.** For my final-year project, I built an orchestrator that coordinated two specialist agents: one retrieved relevant university knowledge, and another analyzed the request and routed the ticket to the responsible department and person. Students and staff used the same entry point for different service needs.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/restaurant-story-v3-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/restaurant-story-v3-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/restaurant-story-v3-dark.svg">
-  <img src="assets/restaurant-story-v3-light.svg" alt="A branded restaurant website, bilingual guest menu on a phone, and owner controls for menus, photos, and branding share one restaurant identity." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/university-ticket-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/university-ticket-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/university-ticket-story-v2-dark.svg">
+  <img src="assets/university-ticket-story-v2-light.svg" alt="University ticket orchestration: students and staff submit a ticket, an orchestrator coordinates a university knowledge RAG agent and a workflow agent, and the ticket is routed to a department and responsible person." width="680">
 </picture>
 
-[Explore Restaurant Websites →](https://github.com/MahdiHajjHassan/Restaurant-app)
+[University project: agents, retrieval, and routing →](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/university-ticket-orchestration/README.md)
 
-## 04 / GCP Data Pipeline
+## 03 / GCP Data Pipeline
 
-I built an ingestion-to-analytics pipeline with GCP Dataflow, BigQuery, and Cloud Workflows. The traffic-data story explains an autonomous hourly workflow for analysts: collect API data, organize staging/ODS/warehouse layers in BigQuery, score unusual patterns, and present measurements with labelled AI interpretation in Looker.
+**From incoming data to an analyst's next question.** I built an ingestion-to-analytics pipeline with Dataflow, BigQuery, and Cloud Workflows. The traffic workflow below explains scheduled collection, consistent analytical tables, anomaly scoring, and AI commentary alongside the measured values.
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v4-mobile-dark.svg">
@@ -58,37 +58,64 @@ I built an ingestion-to-analytics pipeline with GCP Dataflow, BigQuery, and Clou
   <img src="assets/gcp-story-v4-light.svg" alt="An hourly schedule starts Workflows. Ingestion feeds BigQuery staging, ODS, and warehouse layers, followed by anomaly scoring, Gemini interpretation, and Looker analysis." width="680">
 </picture>
 
-[Explore the GCP Data Pipeline →](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/gcp-data-pipeline/README.md)
+[GCP pipeline and AI analysis →](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/gcp-data-pipeline/README.md)
 
-## 05 / Different teams, different development data
+## 04 / AgentCrew: AI Software Delivery Workflow
 
-I developed a configurable synthetic-data generator for teams that needed different views of a dataset. **PolicyForge** asks a practical question: how do different teams get development data that reflects what they are allowed to use? It separates which records belong in a dataset from which fields each recipient can see.
+**Turn a feature request into a change someone can review.** I designed an AI workflow with distinct planning, technical review, implementation, and quality review responsibilities. Each stage used the same requirements and decisions; the product owner reviewed the code changes and check results before approval.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/policy-story-v3-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/policy-story-v3-mobile-light.svg">
+  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v4-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/ai-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v4-dark.svg">
+  <img src="assets/ai-story-v4-light.svg" width="680" alt="Planning and technical review define the task. Implementation supplies code changes, quality review checks them, and a person approves the change or requests revision.">
+</picture>
+
+[AgentCrew workflow and task examples →](https://github.com/MahdiHajjHassan/ai-development-workflow)
+
+## 05 / PolicyForge: Permission-Aware Development Data
+
+**Give each team development data that matches its access.** I developed a configurable synthetic-data generator that shaped datasets for different recipients. Operations, finance, and partner teams could receive different fields, with country rules further narrowing what each dataset contained.
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 540px)" srcset="assets/policy-story-v3-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/policy-story-v3-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/policy-story-v3-dark.svg">
   <img src="assets/policy-story-v3-light.svg" alt="Recipient and country permissions determine the output columns. Operations in Aster omit pay fields, Finance in Aster include them, and Finance in Boreal omit them." width="680">
 </picture>
 
-[Explore the synthetic-data reference →](https://github.com/MahdiHajjHassan/policy-aware-data-generator)
+[PolicyForge design and example datasets →](https://github.com/MahdiHajjHassan/policy-aware-data-generator)
 
-## 06 / Keeping AI work connected to product intent
+## 06 / Doctoleb: Clinic Management
 
-I designed **AgentCrew**, an AI engineering workflow: give each task a clear purpose, keep decisions with it, and carry that context through implementation and review. The storefront task makes the handoffs concrete while a human owns design and release decisions.
+**Appointments, patient records, and visit administration in one workflow.** I developed Doctoleb around receptionists, doctors, and clinic administrators. I designed English, Arabic, and French interfaces, staff access rules, and local browser operation with synchronization for interrupted connectivity.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/ai-story-v3-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/ai-story-v3-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v3-dark.svg">
-  <img src="assets/ai-story-v3-light.svg" alt="Planning, technical review, implementation, and quality review share a task brief and decisions. Review can request revision; the human owner accepts or defers the change." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v4-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v4-dark.svg">
+  <img src="assets/clinic-story-v4-light.svg" alt="An appointment calendar connects to a patient-record folder and visit timeline. Staff and clinic setup support the connected clinic day." width="680">
 </picture>
 
-[Explore the AI workflow →](https://github.com/MahdiHajjHassan/ai-development-workflow)
+[Doctoleb product and architecture →](https://github.com/MahdiHajjHassan/doctoleb-showcase)
 
----
+## 07 / Restaurant Websites
 
-## My technical toolkit
+**A shared application, with each restaurant's own identity.** I developed bilingual restaurant sites, owner tools for menus and branding, and operator tools for onboarding. I connected restaurant domains, isolated business data, reusable themes, and photo processing in one codebase.
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/restaurant-story-v3-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/restaurant-story-v3-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/restaurant-story-v3-dark.svg">
+  <img src="assets/restaurant-story-v3-light.svg" alt="A branded restaurant website, bilingual guest menu on a phone, and owner controls for menus, photos, and branding share one restaurant identity." width="680">
+</picture>
+
+[Restaurant application and architecture →](https://github.com/MahdiHajjHassan/Restaurant-app)
+
+## Technical background
+
+<details>
+<summary><strong>Languages, frameworks, data platforms, and engineering tools</strong></summary>
 
 | Area | My toolkit |
 | --- | --- |
@@ -103,24 +130,22 @@ I designed **AgentCrew**, an AI engineering workflow: give each task a clear pur
 | Delivery | Docker · Git · GitHub · GitLab · GitLab CI/CD · Agile / Scrum · Code review |
 | Collaboration | Jira · Miro · Microsoft Teams · Technical documentation · Peer evaluation |
 
+**Applied AI:** multi-agent coordination, retrieval-augmented generation (RAG), request analysis, ticket routing, and AI-assisted software workflows.
+
+</details>
+
 <details>
-<summary><strong>Engineering background and technical details</strong></summary>
+<summary><strong>Enterprise delivery and systems foundations</strong></summary>
 
-### Enterprise data engineering
+### Data engineering at Thales
 
-At Thales, I delivered data pipelines and reporting systems for critical HR data covering tens of thousands of employees worldwide. I coordinated delivery with other engineers and interns, clarified requirements with the product owner and discussed architecture with the technical lead.
+I delivered SQL Server stored procedures and Talend ETL pipelines feeding HR operational and analytical systems. My work included data modeling, validation, Power BI reporting, deployment, and production troubleshooting. I supplied HR datasets for AI model training and worked with GCP Dataflow, BigQuery, and Cloud Workflows.
 
-My experience includes SQL Server and Talend ETL components, data modeling, validation, deployment, and production support. I have also worked with GCP Dataflow, BigQuery, and Cloud Workflows.
+I clarified requirements with the product owner, discussed architecture with the technical lead, and coordinated delivery with engineers and interns.
 
-### Applications and AI workflows
+### Software engineering at 42 Beirut
 
-My independent projects combined product requirements, application design, implementation, and review. Doctoleb's public technical notes cover React, TypeScript, browser persistence, and synchronization design.
-
-I also built a multi-agent orchestration system for my final-year project. That project is separate from the storefront workflow above.
-
-### Systems foundations
-
-I'm a **42 Beirut alumnus**. Completed projects developed my experience with C and C++, Unix processes and filesystems, networking, debugging, and peer review.
+I'm a **42 Beirut alumnus**. C and C++ projects developed my experience with algorithms, data structures, Unix processes, filesystems, networking, debugging, testing, and peer review. My application work also covered Python APIs, web applications, and Electron desktop software.
 
 <a href="https://www.thalesgroup.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/thales-dark.svg"><img src="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/thales.svg" alt="Thales" width="100"></picture></a>&nbsp;&nbsp;&nbsp;
 <a href="https://www.42beirut.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/42-dark.svg"><img src="https://raw.githubusercontent.com/MahdiHajjHassan/MahdiHajjHassan/main/assets/42-light.svg" alt="42 Beirut alumni affiliation" width="32"></picture></a>

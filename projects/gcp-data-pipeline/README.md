@@ -1,12 +1,13 @@
-# GCP Data Pipeline
+# GCP Data Pipeline | Analytics and AI Interpretation
 
 > [!CAUTION]
-> **Professional experience, protected information.**
-> This public showcase uses independent reference designs and fictional examples, with no Thales implementation or data. It discloses no employer code, systems, configuration, or critical information and carries no official endorsement. Diagrams explain the design; they are illustrations, not application screenshots or execution results. The traffic scenario and service composition are independent design choices. This repository supplies documentation rather than deployed infrastructure, model outputs, or evaluation results.
+> **Public cloud architecture.** I built a GCP ingestion-to-analytics pipeline; this traffic scenario is an independent design, with no Thales implementation or data and no employer endorsement. Service choices, example values and diagrams explain the architecture. This repository contains documentation, not deployed infrastructure or evaluated model results.
 
-## Hourly data. Layered analytics. AI-assisted interpretation.
+## Turn incoming data into useful analysis
 
-I built an ingestion-to-analytics pipeline with GCP Dataflow, BigQuery, and Cloud Workflows. The traffic-data workflow connects the same engineering concerns: a feed changes every hour, new batches pass through three analytical layers, unusual patterns are scored, and a dashboard presents the measured trends alongside labelled AI interpretation.
+I built an ingestion-to-analytics pipeline using **GCP Dataflow, BigQuery, and Cloud Workflows**. My contribution connected data ingestion, processing, and analytical delivery.
+
+The traffic workflow explains the analyst's task: **what changed this hour, which areas look unusual, and what needs investigation?** It connects hourly API data to consistent tables, historical comparisons, anomaly scores, and AI commentary in a dashboard.
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/gcp-story-v4-mobile-dark.svg">
@@ -15,33 +16,27 @@ I built an ingestion-to-analytics pipeline with GCP Dataflow, BigQuery, and Clou
   <img src="assets/gcp-story-v4-light.svg" alt="An hourly schedule starts Workflows. Ingestion feeds BigQuery staging, ODS, and warehouse layers, followed by anomaly scoring, Gemini interpretation, and Looker analysis." width="680">
 </picture>
 
-### The analyst's question
+### From an hourly feed to an analyst's view
 
-What changed this hour, which areas look unusual, and what deserves attention? The workflow is designed for transport analysts and operations teams who need a connected view of incoming data, historical context, and anomalies.
+1. Collect the new batch and identify its observation period.
+2. Standardize timestamps, zone keys, and numeric values.
+3. Build hourly measures and historical series.
+4. Score unusual observations and generate an explanation of the selected metrics.
+5. Show the measurements, scores, commentary, and data freshness together.
 
-### Three layers, three responsibilities
+### Numbers first, AI interpretation alongside
 
-| Layer | Purpose |
-| --- | --- |
-| Staging | Preserve batch identity and ingested shape so incoming data can be checked. |
-| ODS | Normalize timestamps and zone keys, reconcile duplicates, and expose consistent operational observations. |
-| Data warehouse | Build hourly measures and historical series for dashboard analysis and anomaly scoring. |
+BigQuery ML supplies anomaly scores. Gemini turns selected metrics and scores into a structured explanation. Looker presents the underlying measurements alongside clearly labelled generated commentary, so analysts can inspect the numbers behind an interpretation.
 
-### Where AI adds context
-
-The reference design separates numerical evidence from generated interpretation. BigQuery ML scores unusual time-series observations; Gemini turns selected metrics and scores into a short, structured explanation. Looker shows the underlying numbers, data freshness, model flags, and labelled generated commentary together.
-
-The autonomous aspect is the scheduled handoff defined in the reference between stages. Invalid batches stop at a quality gate; an AI failure does not silently become a successful insight.
+The workflow records batch failures and unavailable AI commentary separately. An interpretation failure does not make the measured data disappear.
 
 <details>
-<summary><strong>Service roles and engineering detail</strong></summary>
-
-### A scheduled workflow from API to dashboard
+<summary><strong>Engineering details: scheduled ingestion, data layers, and AI analysis</strong></summary>
 
 ```mermaid
 flowchart TB
   Schedule["Cloud Scheduler: hourly trigger"] --> Flow["Workflows: coordinate the batch"]
-  Flow --> Extract["Cloud Run: reference extractor"]
+  Flow --> Extract["Cloud Run: API extractor"]
   API["Hourly traffic API"] --> Extract
   Extract --> Raw["Cloud Storage: batch snapshots"]
   Raw --> Staging["BigQuery: staging"]
@@ -56,22 +51,29 @@ flowchart TB
   Flow -. "execution state" .-> Logs["Cloud Logging"]
 ```
 
-| Service | Role in the workflow |
-| --- | --- |
-| Cloud Scheduler | Hourly workflow invocation. |
-| Workflows | Stage dependencies, job coordination, bounded retries, and completion/failure paths. |
-| Cloud Run | API extraction and input shaping. |
-| Cloud Storage | Reproducible batch snapshots. |
-| BigQuery | Staging, ODS, warehouse queries, and dashboard-facing views. |
-| BigQuery ML | Time-series anomaly scoring. |
-| BigQuery AI / Gemini | Structured interpretation of selected metrics and model outputs. |
-| Looker | Analytical exploration and dashboard presentation. |
-| IAM / Secret Manager | Service permissions and runtime secret boundaries. |
-| Cloud Logging | Execution and failure visibility. |
+### Data layers
 
-- [Reference architecture and workflow](docs/reference-design.md)
-- [Anomaly analysis, AI interpretation, and dashboard design](docs/ai-analysis.md)
+| Layer | Job |
+| --- | --- |
+| Staging | Receive incoming fields and batch metadata. |
+| Operational data store (ODS) | Standardize observations and resolve duplicate or revised records. |
+| Data warehouse | Organize hourly facts and historical measures for analysis. |
+
+### Service responsibilities
+
+| Service | Job in the traffic architecture |
+| --- | --- |
+| Cloud Scheduler and Workflows | Start hourly batches and coordinate their stages. |
+| Cloud Run and Cloud Storage | Extract API data and retain batch snapshots. |
+| BigQuery | Transform data and serve analytical views. |
+| BigQuery ML | Score anomalies in historical series. |
+| BigQuery AI / Gemini | Generate structured interpretation from selected metrics. |
+| Looker | Present metrics, anomaly scores, and commentary. |
+| IAM, Secret Manager, and Cloud Logging | Control service access, runtime secrets, and operational visibility. |
+
+- [Batch processing and failure handling](docs/reference-design.md)
+- [Anomaly scoring and AI interpretation](docs/ai-analysis.md)
 
 </details>
 
-[Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan)
+[Back to my portfolio](https://github.com/MahdiHajjHassan)
