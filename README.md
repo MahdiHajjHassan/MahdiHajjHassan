@@ -3,7 +3,7 @@
 > [!CAUTION]
 > **Critical HR information, handled responsibly.** At Thales, I delivered pipelines and reporting for critical HR data covering tens of thousands of employees worldwide. Public showcases use independent examples, with no Thales implementation or data and no employer endorsement. Private application code stays private; diagrams explain project workflows.
 
-I'm **Mahdi**, a **data engineer at Thales** in **Beirut, Lebanon**, and a **42 Beirut alumnus**. I delivered enterprise HR pipelines and reporting, supplied datasets for AI model training, and built a university multi-agent system that routes student and staff requests to the right people.
+I'm **Mahdi**, a **data engineer at Thales** in **Beirut, Lebanon**, and a **42 Beirut alumnus**. I delivered enterprise HR pipelines and reporting and supplied datasets for AI model training. I also shipped AI workflows and built a multi-agent system for a university that routes student and staff requests to the right people.
 
 My work connects **data engineering, AI workflows, and the applications people use to get work done**.
 
@@ -14,7 +14,7 @@ My work connects **data engineering, AI workflows, and the applications people u
 ## Selected projects
 
 - [**HR Data Platform**](https://github.com/MahdiHajjHassan/workforce-data-platform): enterprise HR reporting, controlled sharing, and datasets for AI model training.
-- [**University Multi-Agent Ticket Routing**](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/university-ticket-orchestration/README.md): university knowledge retrieval and agent coordination that connect a request to the department and person responsible.
+- [**University Multi-Agent Ticket Routing**](https://github.com/MahdiHajjHassan/university-ticket-orchestration): university knowledge retrieval and agent coordination that connect a request to the department and person responsible.
 - [**GCP Data Pipeline**](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/gcp-data-pipeline/README.md): scheduled ingestion, analytics, anomaly scoring, and AI interpretation.
 - [**AgentCrew**](https://github.com/MahdiHajjHassan/ai-development-workflow): an AI software delivery workflow from feature request to code review and human approval.
 - [**PolicyForge**](https://github.com/MahdiHajjHassan/policy-aware-data-generator): synthetic development datasets shaped by team, role, country, and field permissions.
@@ -36,7 +36,7 @@ My work connects **data engineering, AI workflows, and the applications people u
 
 ## 02 / University Multi-Agent Ticket Routing
 
-**A university request should reach the person who can resolve it.** For my final-year project, I built an orchestrator that coordinated two specialist agents: one retrieved relevant university knowledge, and another analyzed the request and routed the ticket to the responsible department and person. Students and staff used the same entry point for different service needs.
+**A university request should reach the person who can resolve it.** I built an orchestrator for a university that coordinated two specialist agents: one retrieved relevant university knowledge, and another analyzed the request and routed the ticket to the responsible department and person. Students and staff used the same entry point for different service needs.
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/university-ticket-story-v2-mobile-dark.svg">
@@ -45,7 +45,7 @@ My work connects **data engineering, AI workflows, and the applications people u
   <img src="assets/university-ticket-story-v2-light.svg" alt="University ticket orchestration: students and staff submit a ticket, an orchestrator coordinates a university knowledge RAG agent and a workflow agent, and the ticket is routed to a department and responsible person." width="680">
 </picture>
 
-[University project: agents, retrieval, and routing →](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/university-ticket-orchestration/README.md)
+[University project: agents, retrieval, and routing →](https://github.com/MahdiHajjHassan/university-ticket-orchestration)
 
 ## 03 / GCP Data Pipeline
 
