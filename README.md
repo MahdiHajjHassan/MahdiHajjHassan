@@ -16,7 +16,7 @@ My work connects **data engineering, AI workflows, and the applications people u
 - [**GCP Data Pipeline**](https://github.com/MahdiHajjHassan/MahdiHajjHassan/blob/main/projects/gcp-data-pipeline/README.md): scheduled ingestion, analytics, anomaly scoring, and AI interpretation.
 - [**AgentCrew**](https://github.com/MahdiHajjHassan/ai-development-workflow): an AI software delivery workflow from feature request to code review and human approval.
 - [**PolicyForge**](https://github.com/MahdiHajjHassan/policy-aware-data-generator): synthetic development datasets shaped by team, role, country, and field permissions.
-- [**Doctoleb**](https://github.com/MahdiHajjHassan/doctoleb-showcase): appointments, patient records, and clinic administration in a multilingual application.
+- [**Doctoleb: AI Clinic Management**](https://github.com/MahdiHajjHassan/doctoleb-showcase): conversational control of clinic workflows, reports and financial analysis, plus WhatsApp booking and patient-profile updates.
 - [**Restaurant Websites**](https://github.com/MahdiHajjHassan/Restaurant-app): branded bilingual sites with menu management and separate owner/operator controls.
 
 ## 01 / HR Data Platform
@@ -84,15 +84,17 @@ My work connects **data engineering, AI workflows, and the applications people u
 
 [PolicyForge design and example datasets →](https://github.com/MahdiHajjHassan/policy-aware-data-generator)
 
-## 06 / Doctoleb: Clinic Management
+## 06 / Doctoleb: AI Clinic Management
 
-**Appointments, patient records, and visit administration in one workflow.** I developed Doctoleb around receptionists, doctors, and clinic administrators. I designed English, Arabic, and French interfaces, staff access rules, and local browser operation with synchronization for interrupted connectivity.
+**Run clinic workflows by talking to an AI agent.** I developed Doctoleb around receptionists, doctors, and clinic administrators. Staff describe a task; the agent plans, navigates and interacts with the platform to book appointments, update patient profiles, generate reports for each clinic to review and validate, and analyze payments and financials. A WhatsApp AI assistant also lets patients book appointments and update their profiles through conversation, with changes returned to the clinic software.
+
+My work connects these AI workflows with multilingual interfaces, staff access rules, and local browser operation with synchronization for interrupted connectivity.
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v4-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/clinic-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v4-dark.svg">
-  <img src="assets/clinic-story-v4-light.svg" alt="An appointment calendar connects to a patient-record folder and visit timeline. Staff and clinic setup support the connected clinic day." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v6-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-v6-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v6-dark.svg">
+  <img src="assets/clinic-story-v6-light.svg" alt="A staff request passes through AI planning, navigation and actions into appointments, patient profiles, reports and payment analysis. A separate WhatsApp conversation updates booking and profiles. Generated reports go to clinic review and validation." width="680">
 </picture>
 
 [Doctoleb product and architecture →](https://github.com/MahdiHajjHassan/doctoleb-showcase)
