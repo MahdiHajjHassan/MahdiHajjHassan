@@ -1,0 +1,24 @@
+# Optional orchestration adapter; authenticated endpoint is supplied when deployed.
+main:
+  params: [args]
+  steps:
+    - extract:
+        call: http.post
+        args:
+          url: ${args.extractor_url}
+          auth:
+            type: OIDC
+          body:
+            batch_date: ${args.batch_date}
+        result: extraction
+    - warehouse:
+        call: http.post
+        args:
+          url: ${args.warehouse_url}
+          auth:
+            type: OIDC
+          body:
+            object_uri: ${extraction.body.object_uri}
+        result: warehouse
+    - complete:
+        return: ${warehouse.body}
